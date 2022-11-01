@@ -88,3 +88,26 @@ const begin = () => {
     }
 }
 
+alienCount = 6;
+
+const startBattle = () => {
+
+    while (alienCount > 0) {
+        if (alien.hull < 1) {
+            alienCount--
+        }
+
+        if (alienCount > 0 && ussHelloWorld.hull > 0) {
+            alien.hull = Math.floor(Math.random() * 4) + 3
+            alien.firepower = Math.floor(Math.random() * 3) + 2
+            alien.accuracy = (Math.floor(Math.random() * 3) + .6) /10
+        } else if (alienCount < 1 && ussHelloWorld.hull < 1) {
+            return alert(`DIDN'T SEE THAT COMING`)
+        } else if (alienCount < 1 && ussHelloWorld.hull > 0) {
+            return alert(`THE EARTH IS SAVED!!!! YOU ROCK ;)`)
+        } else {
+            return alert(`YOU LOST. HAVE YOU EVER SEEN THE MOVIE: MARS ATTACKS? YEAH, THANKS.`)
+        }
+    }
+
+}
