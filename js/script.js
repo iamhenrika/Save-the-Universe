@@ -120,5 +120,19 @@ const engage = () => {
     startBattle();
 }
 
+//Battle
+// class Player {
+//     constructor (name){
+//         this.name = name;
+//     }
+// }
 
+// Basic Alien Vessal
+//  class alienShip {
+//     constructor(hull, firepower, accuracy){
+//         this.hull = hull
+//         this.firepower = firepower
+//         this.accuracy = accuracy
+//     }
+// }
 
