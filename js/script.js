@@ -74,3 +74,17 @@ class alienShip {
         }
     }
 }
+
+const begin = () => {
+    alert('SPACE BATTLE!');
+    const response = prompt(`Enter 'A' to play or 'Q' to exit.`);
+    if (response.toLowerCase() === 'Q') {
+        alert(`THE ALIENS HAVE INVADED`)
+    } else if (response.toLowerCase() === 'A') {
+        alert('THE EARTH IS COUNTING ON YOU!!')
+        startBattle()
+    } else {
+        alert(`OOPS. ONE MORE TIME`)
+    }
+}
+
