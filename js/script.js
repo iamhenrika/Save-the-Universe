@@ -153,3 +153,38 @@ const engage = () => {
 
 // //or
 
+// const hull = () => {
+//     sum = Math.floor(Math.random() * 4) + 3
+//     return sum
+// }
+
+// const firepower = () => {
+//     sum = Math.floor(Math.random() * 3) + 2
+//     return sum
+// }
+// const accuracy = () => {
+//     sum = (Math.floor(Math.random() * 3) + 6) / 10;
+//     return sum
+// }
+
+// for (let i=0; alienFleet.length < 6; i++){
+//     alienFleet.push(new alienFleet (hull(), firepower(), accuracy()))
+// }
+
+// const randomProperty = (max, min) => {
+
+//     // find diff
+//     let difference = (max - min);
+
+//     // generate random number
+//     let rand = Math.random();
+
+//     // multiply with difference
+//     rand = Math.floor( rand * difference);
+
+//     // add with min value
+//     rand = rand + min;
+
+//     return rand;
+// }
+
