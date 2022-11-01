@@ -111,3 +111,14 @@ const startBattle = () => {
     }
 
 }
+
+begin()
+
+const engage = () => {
+    ussHelloWorld.attack();
+    alien.attack();
+    startBattle();
+}
+
+
+
