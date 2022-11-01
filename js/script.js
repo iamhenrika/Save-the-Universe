@@ -136,3 +136,20 @@ const engage = () => {
 //     }
 // }
 
+// const alienFleet = []
+//const alienShips = [alienOne, alienTwo, alienThree, alienFour, alienFive, alienSix]
+
+// const alienOne = new alienShip(this.hull = Math.floor(Math.random() * 4) + 3, this.firepower = Math.floor(Math.random() * 3) + 2, this.accuracy = (Math.floor(Math.random() * 3) + .6) /10)
+
+// const alienTwo = new alienShip(this.hull = Math.floor(Math.random() * 4) + 3, this.firepower = Math.floor(Math.random() * 3) + 2, this.accuracy = (Math.floor(Math.random() * 3) + .6) /10)
+
+// const alienThree = new alienShip(this.hull = Math.floor(Math.random() * 4) + 3, this.firepower = Math.floor(Math.random() * 3) + 2, this.accuracy = (Math.floor(Math.random() * 3) + .6) /10)
+
+// const alienFour = new alienShip(this.hull = Math.floor(Math.random() * 4) + 3, this.firepower = Math.floor(Math.random() * 3) + 2, this.accuracy = (Math.floor(Math.random() * 3) + .6) /10)
+
+// const alienFive = new alienShip(this.hull = Math.floor(Math.random() * 4) + 3, this.firepower = Math.floor(Math.random() * 3) + 2, this.accuracy = (Math.floor(Math.random() * 3) + .6) /10)
+
+// const alienSix = new alienShip(this.hull = Math.floor(Math.random() * 4) + 3, this.firepower = Math.floor(Math.random() * 3) + 2, this.accuracy = (Math.floor(Math.random() * 3) + 6) /10)
+
+// //or
+
