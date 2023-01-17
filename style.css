@@ -1,0 +1,19 @@
+body {
+  background: url(images/the-galaxy.jpg);
+  background-size: cover;
+  margin: 0;
+  color: white;
+}
+
+.ship {
+  display: inline-block;
+}
+
+.alienShip {
+  position: relative;
+  top: 300px;
+}
+
+.myShip {
+  padding: 20px;
+}

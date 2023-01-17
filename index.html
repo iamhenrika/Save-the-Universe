@@ -1,43 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Save the Universe</title>
-    <script src="js/script.js" defer></script>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Save the Universe</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+
 </head>
 
 <body>
-    <div id="ships">
-        <img id="ship" class="fly" src="" alt="">
-        <img id="alienship" class="hide" src="" alt="">
+<button id="startBtn">
+    Start Game
+</button>
+<div id="ships" >
+    <div class="ship alienShip">
+        <img src="images/alien-ship.png" width="100" height="80"/>
+        <span id="alienHull"></span>
+        <span id="alienFP"></span>
     </div>
-    <div id="intro-container">
-        <h4 id="intro-text">Earth has been attacked by a horde of aliens!
-            <br>
-            <br>
-            Captain, it is your mission to destroy every last
-            alien ship and bring your crew home safe.
-            <br>
-            <br>
-            Now these aliens aren't too bright. They'll only attack you one at a time. Destroy the ships with your
-            lasers. If hull integrity is too low, retreat is always an option.
-        </h4>
-        <br>
-        <h2>
-            Go save the world.</h3>
-        <!--
-            <div id="start hide">
-                <button id="begin-btn" onclick="game.start()">Begin</button>
-            </div>
-            <div id="retreat hide">
-                <button id="retreat-btn" onclick="game.retreat()">Retreat</button>
-            </div> -->
+    <div class="ship myShip">
+        <img src="images/enterprise.png" width="100" height="80" />
+        <span id="myHull"></span>
+        <span id="myFP"></span>
     </div>
-
+    <button id="shootBtn" disabled>Shoot</button>
+    <button id="retreatBtn" disabled>Retreat</button>
+</div>
+</img>
 </body>
 
 </html>
