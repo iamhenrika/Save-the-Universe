@@ -1,6 +1,7 @@
 # Save the Universe (102722)
- 
-/*A game round would look like this:
+
+
+A game round would look like this:
 You attack the first alien ship
 If the ship survives, it attacks you
 If you survive, you attack the ship again
@@ -23,4 +24,4 @@ The alien ships should each have the following ranged properties determined rand
 hull - between 3 and 6
 firepower - between 2 and 4
 accuracy - between .6 and .8
-You could be battling six alien ships each with unique values */
+You could be battling six alien ships each with unique values
